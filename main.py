@@ -7,5 +7,5 @@ def factorial(x: int) -> int:
     return x * factorial(x - 1)
 
 if __name__ == '__main__':
-    number = input("Input a number: ")
+    number: int = input("Input a number: ")
     print(factorial(number))
