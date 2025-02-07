@@ -2,7 +2,8 @@
 # coding: utf-8
 
 def factorial(x):
-    if x <= 1:
+    y: int = 3
+    if x <= y:
         return 1
     return x * factorial(x - 1)
 
