@@ -4,5 +4,5 @@
 def foo(a):
     return a
 
-def bar(x: int):
+def bar(x):
     return x + 1
