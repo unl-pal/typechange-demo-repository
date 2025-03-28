@@ -5,7 +5,7 @@ from typing import Union, TypeVar
 
 T = TypeVar('T')
 
-def foo(a: T) -> T:
+def foo(a: T) -> int:
     return a
 
 def bar(x: Union[int, float]) -> Union[int, float]:
