@@ -3,7 +3,7 @@
 
 from typing import Union
 
-def foo(a: str):
+def foo(a: str) -> str:
     return a
 
 def bar(x: Union[int, float]) -> Union[int, float]:
