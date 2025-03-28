@@ -1,9 +1,11 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-from typing import Union
+from typing import Union, TypeVar
 
-def foo(a):
+T = TypeVar('T')
+
+def foo(a: T) -> T:
     return a
 
 def bar(x: Union[int, float]) -> Union[int, float]:
