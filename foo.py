@@ -11,5 +11,5 @@ def foo(a: int):
 def bar(x: Union[int, float]) -> Union[int, float]:
     return x + 1
 
-def quux(x: int):
+def quux(x: int) -> float:
     return x
